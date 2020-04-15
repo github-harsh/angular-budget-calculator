@@ -1,0 +1,28 @@
+// This file will have global styles and all the variables
+
+@charset "utf-8";
+
+// Import a Google Font
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,700');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300&display=swap" rel="stylesheet;');
+
+// Set your brand colors
+$red-brown: #C94511;
+$dark-yellow: #DAAD3F;
+$light-yellow: #FAE979;
+$light-green: #79A652;
+$dark-green: #23483D;
+$light-gray: #FFFEFC;
+
+// Bulma's global variables
+$family-sans-serif: "Nunito", sans-serif;
+$primary: $red-brown;
+$link: $red-brown;
+
+// Bulma's component variables
+$body-background-color: white;
+$control-border-width: 2px;
+$input-border-color: $light-gray;
+$input-shadow: none;
